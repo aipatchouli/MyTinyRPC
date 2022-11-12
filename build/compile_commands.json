@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/build",
+  "command": "/usr/lib64/ccache/clang++ -g -std=gnu++20 -o CMakeFiles/MyTinyRPC.dir/src/main.cxx.o -c /home/patchy/文档/C++_PROJECT/MyTinyRPC/src/main.cxx",
+  "file": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/src/main.cxx"
+}
+]
