@@ -9,7 +9,6 @@
 #include <limits>
 #include <span>
 
-// argc is the number of arguments, argv is the array of arguments including "./main"
 auto main () -> int { 
     
 
