@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-DEBUGE-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "DEBUGE",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyTinyRPC",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MyTinyRPCClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyTinyRPCClient-DEBUGE-cb7902eebca560160e9a.json",
+					"name" : "MyTinyRPCClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyTinyRPCServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyTinyRPCServer-DEBUGE-798fea2437a77f88bdf2.json",
+					"name" : "MyTinyRPCServer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/patchy/\u6587\u6863/C++_PROJECT/MyTinyRPC/build",
+		"source" : "/home/patchy/\u6587\u6863/C++_PROJECT/MyTinyRPC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

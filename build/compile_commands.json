@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/build",
-  "command": "/usr/lib64/ccache/clang++ -g -std=gnu++17 -o CMakeFiles/MyTinyRPC.dir/src/main.cxx.o -c /home/patchy/文档/C++_PROJECT/MyTinyRPC/src/main.cxx",
-  "file": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/src/main.cxx"
+  "command": "clang++ -DBOOST_ERROR_CODE_HEADER_ONLY -I/usr/lib64 -I/usr/local/lib -o CMakeFiles/MyTinyRPCServer.dir/src/server.cxx.o -c /home/patchy/文档/C++_PROJECT/MyTinyRPC/src/server.cxx",
+  "file": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/src/server.cxx"
+},
+{
+  "directory": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/build",
+  "command": "clang++ -DBOOST_ERROR_CODE_HEADER_ONLY -I/usr/lib64 -I/usr/local/lib -o CMakeFiles/MyTinyRPCClient.dir/src/client.cxx.o -c /home/patchy/文档/C++_PROJECT/MyTinyRPC/src/client.cxx",
+  "file": "/home/patchy/文档/C++_PROJECT/MyTinyRPC/src/client.cxx"
 }
 ]

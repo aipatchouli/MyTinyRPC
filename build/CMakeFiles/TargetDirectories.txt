@@ -1,3 +1,4 @@
-/home/patchy/文档/C++_PROJECT/MyTinyRPC/build/CMakeFiles/MyTinyRPC.dir
+/home/patchy/文档/C++_PROJECT/MyTinyRPC/build/CMakeFiles/MyTinyRPCServer.dir
+/home/patchy/文档/C++_PROJECT/MyTinyRPC/build/CMakeFiles/MyTinyRPCClient.dir
 /home/patchy/文档/C++_PROJECT/MyTinyRPC/build/CMakeFiles/edit_cache.dir
 /home/patchy/文档/C++_PROJECT/MyTinyRPC/build/CMakeFiles/rebuild_cache.dir
