@@ -399,7 +399,7 @@ private:
         msgpack::pack(sbuffer, src);       // 序列化
         std::string strbuf(sbuffer.str()); // 转化为 std::string 类型方便传输
 
-        std::cout << " len " << strbuf.size() << std::endl;
+        std::cout << "len " << strbuf.size() << std::endl;
         size_t len_bigend = boost::asio::detail::socket_ops::host_to_network_long(strbuf.size());
         memcpy(buffer->data() + 4, &len_bigend, 4);               // 将 msgpack 包长度写到函数映射之后
         memcpy(buffer->data() + 8, strbuf.data(), strbuf.size()); // 将 msgpack 包写入 buffer
@@ -432,10 +432,10 @@ private:
     }
 
     void handle_rpc_data(const boost::system::error_code& error) {
-        std::cout << "data read: " << buffer->data() << std::endl;
+        // std::cout << "data read: " << buffer->data() << std::endl;
         msgpack::object_handle msg = msgpack::unpack(buffer->data(), buffer->size());
         auto tp = msg.get().as<std::tuple<int>>();
-        std::cout << " msgpack " << std::get<0>(tp) << std::endl;
+        std::cout << "msgpack " << std::get<0>(tp) << std::endl;
         result = std::get<0>(tp); // 将结果写入成员变量 result 里面
     }
 
@@ -501,7 +501,7 @@ private:
                                     std::cout << socket_.remote_endpoint().address() << ":" << socket_.remote_endpoint().port() << " original data " << len_ << std::endl;
 
                                     len = boost::asio::detail::socket_ops::network_to_host_long(int(*(int*)len_));
-                                    std::cout << socket_.remote_endpoint().address() << ":" << socket_.remote_endpoint().port() << " len " << opt << std::endl;
+                                    std::cout << socket_.remote_endpoint().address() << ":" << socket_.remote_endpoint().port() << "len " << opt << std::endl;
 
                                     read_msgpack();
                                 });

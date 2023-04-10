@@ -16,12 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.24.2/CMakeSystem.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake"
+			"path" : "build/CMakeFiles/3.26.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -211,6 +206,11 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
 		},
 		{
@@ -270,7 +270,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/3.26.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -455,6 +455,11 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
 		},
 		{
@@ -509,7 +514,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.26.2/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -648,7 +653,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/3.26.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -747,7 +752,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.26.2/CMakeCXXCompiler.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

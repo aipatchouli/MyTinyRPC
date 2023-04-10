@@ -29,6 +29,9 @@ CMAKE_CXX_COMPILER:STRING=/usr/lib64/ccache/clang++
 //LLVM archiver
 CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar
 
+//`clang-scan-deps` dependency scanner
+CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=/usr/bin/clang-scan-deps
+
 //Generate index for LLVM archive
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
 
@@ -52,6 +55,9 @@ CMAKE_C_COMPILER:STRING=/usr/lib64/ccache/clang
 
 //LLVM archiver
 CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar
+
+//`clang-scan-deps` dependency scanner
+CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=/usr/bin/clang-scan-deps
 
 //Generate index for LLVM archive
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
@@ -242,7 +248,7 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/patchy/文档/C++_PROJECT/MyTinyRPC/build
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=24
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=26
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
 //Path to CMake executable.
@@ -255,6 +261,8 @@ CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
 CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS
+CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
 CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
@@ -271,6 +279,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_CLANG_SCAN_DEPS
+CMAKE_C_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
 CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
